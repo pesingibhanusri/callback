@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n1=5
+        let n2=5
+        function operation(n1,n2,callback){
+            callback(n1,n2)
+            
+           
+        }
+    function multiplication(){
+        console.log(n1*n2)
+        
+    }
+    function division(){
+        console.log(n1%n2)
+
+    }
+
+    function mod(){
+        console.log(n1/n2)
+    }
+    operation(5,5,mod)
+    operation(5,5,multiplication)
+    operation(5,5,division)
+   
+    
+    </script>
+</body>
+</html>
